@@ -27,17 +27,17 @@
 
     <Preference
         android:key="blacklist_fragment"
-        android:fragment="com.crdroid.settings.fragments.recents.SlimRecentsBlacklist"
+        android:fragment="com.custom.settings.fragments.recents.SlimRecentsBlacklist"
         android:title="@string/slim_blacklist_apps_cat_title"
         android:summary="@string/slim_blacklist_apps_summary"
         android:persistent="false" />
 
-    <!--<com.crdroid.settings.preferences.SystemSettingSwitchPreference
+    <!--<com.custom.settings.preferences.SystemSettingSwitchPreference
         android:key="show_running_tasks"
         android:title="@string/show_running_tasks_title"
         android:defaultValue="false" />-->
 
-    <com.crdroid.settings.preferences.CustomSeekBarPreference
+    <com.custom.settings.preferences.CustomSeekBarPreference
         android:key="recents_max_apps"
         android:title="@string/recents_max_apps_title"
         android:max="30"
@@ -57,13 +57,13 @@
         android:summary="@string/recent_panel_lefty_mode_summary"
         android:defaultValue="false" />
 
-    <!--<com.crdroid.settings.preferences.SystemSettingSwitchPreference
+    <!--<com.custom.settings.preferences.SystemSettingSwitchPreference
         android:key="recent_panel_show_topmost"
         android:title="@string/recent_panel_show_topmost_title"
         android:summary="@string/recent_panel_show_topmost_summary"
         android:defaultValue="false" />-->
 
-    <com.crdroid.settings.preferences.CustomSeekBarPreference
+    <com.custom.settings.preferences.CustomSeekBarPreference
         android:key="recent_panel_scale"
         android:title="@string/recent_panel_scale_title"
         android:max="160"
@@ -72,19 +72,19 @@
         settings:units="%"
         android:persistent="false" />
 
-    <com.crdroid.settings.preferences.colorpicker.ColorPickerPreference
+    <com.custom.settings.preferences.colorpicker.ColorPickerPreference
         android:key="recent_panel_bg_color"
         android:title="@string/recent_panel_bg_color_title"
         android:defaultValue="#763367d6"
         alphaSlider="true" />
 
-    <com.crdroid.settings.preferences.colorpicker.ColorPickerPreference
+    <com.custom.settings.preferences.colorpicker.ColorPickerPreference
         android:key="recent_card_bg_color"
         android:title="@string/recent_card_bg_color_title"
         android:defaultValue="0x00ffffff"
         alphaSlider="true" />
 
-    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+    <com.custom.settings.preferences.SystemSettingSwitchPreference
         android:key="slim_recents_corner_radius"
         android:title="@string/slim_recents_corner_radius_title"
         android:defaultValue="true" />

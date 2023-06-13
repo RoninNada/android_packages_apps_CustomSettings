@@ -22,7 +22,7 @@
 
     <PreferenceScreen
         android:key="carbon_gestures"
-        android:fragment="com.crdroid.settings.fragments.navbar.CarbonGesturesSettings"
+        android:fragment="com.custom.settings.fragments.navbar.CarbonGesturesSettings"
         android:title="@string/carbon_gesture_preference_title"
         android:summary="@string/carbon_gestures_summary"
         android:persistent="false" />
@@ -31,7 +31,7 @@
         android:key="edge_gestures"
         android:title="@string/edge_gestures_title"
         android:summary="@string/edge_gestures_summary"
-        android:fragment="com.crdroid.settings.fragments.navbar.EdgeGestureSettings" />-->
+        android:fragment="com.custom.settings.fragments.navbar.EdgeGestureSettings" />-->
 
     <org.lineageos.internal.lineageparts.LineagePartsPreference
         android:key="touchscreen_gesture_settings"
@@ -46,7 +46,7 @@
         <intent android:action="org.lineageos.settings.device.GESTURE_SETTINGS" />
     </lineageos.preference.RemotePreference>
 
-    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+    <com.custom.settings.preferences.SystemSettingSwitchPreference
         android:key="use_bottom_gesture_navigation"
         android:title="@string/use_bottom_gesture_title"
         android:summary="@string/use_bottom_gesture_summary"

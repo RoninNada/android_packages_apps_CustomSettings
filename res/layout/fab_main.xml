@@ -24,7 +24,7 @@
     android:background="@drawable/fab_overlay_bg"
     tools:context="in.city.bytes.view.MainActivity">
 
-<com.crdroid.settings.fab.FloatingActionsMenu
+<com.custom.settings.fab.FloatingActionsMenu
     android:id="@+id/fab_menu"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
     fab:fab_labelStyle="@style/menu_labels_style"
     fab:fab_labelsPosition="left">
 
-    <com.crdroid.settings.fab.FloatingActionButton
+    <com.custom.settings.fab.FloatingActionButton
         android:id="@+id/fab_reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,5 +47,5 @@
         fab:fab_size="mini"
         fab:fab_title="@string/fab_reset" />
 
-</com.crdroid.settings.fab.FloatingActionsMenu>
+</com.custom.settings.fab.FloatingActionsMenu>
 </FrameLayout>

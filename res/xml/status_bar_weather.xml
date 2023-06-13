@@ -24,7 +24,7 @@
         android:key="omnijaws_settings"
         android:title="@string/omnijaws_settings_title"
         android:summary="@string/omnijaws_settings_summary"
-        android:fragment="com.crdroid.settings.fragments.quicksettings.OmniJaws" />
+        android:fragment="com.custom.settings.fragments.quicksettings.OmniJaws" />
 
     <ListPreference
         android:key="status_bar_temperature"
@@ -46,7 +46,7 @@
         android:entryValues="@array/font_style_values"
         android:title="@string/font_style_title" />
 
-    <com.crdroid.settings.preferences.CustomSeekBarPreference
+    <com.custom.settings.preferences.CustomSeekBarPreference
         android:key="status_bar_weather_size"
         android:title="@string/font_size_title"
         android:max="23"
@@ -54,12 +54,12 @@
         android:defaultValue="14"
         settings:units="dp"/>
 
-    <com.crdroid.settings.preferences.colorpicker.ColorPickerPreference
+    <com.custom.settings.preferences.colorpicker.ColorPickerPreference
         android:key="status_bar_weather_color"
         android:title="@string/status_bar_weather_color_title"
         android:defaultValue="0xffffffff" />
 
-    <com.crdroid.settings.preferences.colorpicker.ColorPickerPreference
+    <com.custom.settings.preferences.colorpicker.ColorPickerPreference
         android:key="status_bar_weather_image_color"
         android:title="@string/status_bar_weather_image_color_title"
         android:defaultValue="0xffffffff" />

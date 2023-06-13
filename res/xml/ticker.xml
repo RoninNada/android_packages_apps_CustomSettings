@@ -30,12 +30,12 @@
         android:key="ticker_colors"
         android:title="@string/colors_title">
 
-        <com.crdroid.settings.preferences.ColorPickerPreference
+        <com.custom.settings.preferences.ColorPickerPreference
             android:key="status_bar_ticker_text_color"
             android:title="@string/text_title"
             android:defaultValue="0xffffffff" />
 
-        <com.crdroid.settings.preferences.ColorPickerPreference
+        <com.custom.settings.preferences.ColorPickerPreference
             android:key="status_bar_ticker_icon_color"
             android:title="@string/icon_title"
             android:defaultValue="0xffffffff" />

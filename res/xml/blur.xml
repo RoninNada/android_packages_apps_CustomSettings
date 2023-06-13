@@ -29,17 +29,17 @@
             android:summary="@string/blur_colors_notice_summary"
             android:selectable="false" />
 
-        <com.crdroid.settings.preferences.colorpicker.ColorPickerPreference
+        <com.custom.settings.preferences.colorpicker.ColorPickerPreference
             android:key="blur_light_color"
             android:title="@string/blur_light_color"
             android:defaultValue="0xff444444" />
 
-        <com.crdroid.settings.preferences.colorpicker.ColorPickerPreference
+        <com.custom.settings.preferences.colorpicker.ColorPickerPreference
             android:key="blur_dark_color"
             android:title="@string/blur_dark_color"
             android:defaultValue="0xffcccccc" />
 
-        <com.crdroid.settings.preferences.colorpicker.ColorPickerPreference
+        <com.custom.settings.preferences.colorpicker.ColorPickerPreference
             android:key="blur_mixed_color"
             android:title="@string/blur_mixed_color"
             android:defaultValue="0xff888888" />
@@ -56,13 +56,13 @@
             android:summary="@string/blur_notice_summary"
             android:selectable="false" />
 
-        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <com.custom.settings.preferences.SystemSettingSwitchPreference
             android:key="blur_statusbar_enabled"
             android:title="@string/blurred_status_bar_expanded_enabled_pref"
             android:summary="@string/blurred_status_bar_expanded_enabled_pref_summary"
             android:defaultValue="false" />
 
-        <com.crdroid.settings.preferences.CustomSeekBarPreference
+        <com.custom.settings.preferences.CustomSeekBarPreference
             android:key="blur_statusbar_scale"
             android:title="@string/blurred_scale"
             android:summary="@string/blurred_scale_summary"
@@ -71,7 +71,7 @@
             android:dependency="blur_statusbar_enabled"
             android:defaultValue="10" />
 
-        <com.crdroid.settings.preferences.CustomSeekBarPreference
+        <com.custom.settings.preferences.CustomSeekBarPreference
             android:key="blur_statusbar_radius"
             android:title="@string/blurred_radius"
             android:summary="@string/blurred_radius_summary"
@@ -85,13 +85,13 @@
         android:key="blur_notifications_cat"
         android:title="@string/blur_notifications_cat" >   
 
-        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <com.custom.settings.preferences.SystemSettingSwitchPreference
             android:key="blur_notifications_enabled"
             android:title="@string/translucent_notifications_pref"
             android:summary="@string/translucent_notifications_pref_summary"
             android:defaultValue="false" />
 
-        <com.crdroid.settings.preferences.CustomSeekBarPreference
+        <com.custom.settings.preferences.CustomSeekBarPreference
             android:key="blur_notifications_percentage"
             android:title="@string/transluency_level_universal"
             android:max="100"
@@ -104,13 +104,13 @@
         android:key="blur_qs_cat"
         android:title="@string/blur_qs_cat" >
 
-        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <com.custom.settings.preferences.SystemSettingSwitchPreference
             android:key="blur_quicksettings_enabled"
             android:title="@string/translucent_quick_settings_pref"
             android:summary="@string/translucent_quick_settings_pref_summary"
             android:defaultValue="false" />
 
-        <com.crdroid.settings.preferences.CustomSeekBarPreference
+        <com.custom.settings.preferences.CustomSeekBarPreference
             android:key="blur_quicksettings_percentage"
             android:title="@string/transluency_level_universal"
             android:max="100"
@@ -123,13 +123,13 @@
         android:key="blur_vd_cat"
         android:title="@string/blur_vd_cat" >
 
-        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <com.custom.settings.preferences.SystemSettingSwitchPreference
             android:key="blur_volumedialog_enabled"
             android:title="@string/translucent_volume_dialog_pref"
             android:summary="@string/translucent_volume_dialog_pref_summary"
             android:defaultValue="false" />
 
-        <com.crdroid.settings.preferences.CustomSeekBarPreference
+        <com.custom.settings.preferences.CustomSeekBarPreference
             android:key="blur_volumedialog_percentage"
             android:title="@string/transluency_level_universal"
             android:max="100"
@@ -142,13 +142,13 @@
         android:key="blur_recents_cat"
         android:title="@string/blur_recents_cat" >
 
-        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <com.custom.settings.preferences.SystemSettingSwitchPreference
             android:key="blur_recent_enabled"
             android:title="@string/blurred_recent_app_enabled_pref"
             android:summary="@string/blurred_recent_app_enabled_pref_summary"
             android:defaultValue="false" />
 
-        <com.crdroid.settings.preferences.CustomSeekBarPreference
+        <com.custom.settings.preferences.CustomSeekBarPreference
             android:key="blur_recent_scale"
             android:title="@string/blurred_scale"
             android:summary="@string/blurred_scale_summary"
@@ -157,7 +157,7 @@
             android:dependency="blur_recent_enabled"
             android:defaultValue="6" />
 
-        <com.crdroid.settings.preferences.CustomSeekBarPreference
+        <com.custom.settings.preferences.CustomSeekBarPreference
             android:key="blur_recent_radius"
             android:title="@string/blurred_radius"
             android:summary="@string/blurred_radius_summary"
