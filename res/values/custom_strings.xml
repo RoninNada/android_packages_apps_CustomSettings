@@ -16,8 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="custom_settings_title">crDroid Settings</string>
-    <string name="custom_settings_summary">Open goodness</string>
+    <string name="custom_settings_title">Custom Settings</string>
+    <string name="custom_settings_summary">Additional Settings</string>
     <string name="custom_personalization_category">Personalization</string>
     <string name="custom_addons_category">Addons</string>
 
@@ -477,7 +477,7 @@
     <string name="status_bar_custom_logo_style">Logo style</string>
     <string name="status_bar_logo_position_right">Right</string>
     <string name="status_bar_logo_position_left">Left</string>
-    <string name="status_bar_logo_style.custom.>crDroid</string>
+    <string name="status_bar_logo_style_custom">Custom</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_apple">Apple</string>
     <string name="status_bar_logo_style_ios">iOS</string>
@@ -1067,7 +1067,7 @@
     <string name="changelog_custom_error">Unable to load changelog</string>
 
     <!-- About crDroid -->
-    <string name="about.custom.>About crDroid</string>
+    <string name="about_custom">About crDroid</string>
 
     <!-- Share crDroid -->
     <string name="share_custom_title">Share crDroid</string>
