@@ -2114,6 +2114,10 @@
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
 
+    <!-- IME -->
+    <string name="ime_switcher_notify">Selector notification</string>
+    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+
     <!-- USB paranoia mode -->
     <string name="usb_category_title">USB</string>
     <string name="usb_paranoia_connect_title">USB secure connect</string>
