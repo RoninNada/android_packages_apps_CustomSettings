@@ -2136,4 +2136,8 @@
     <string name="usb_paranoia_connect_title">USB secure connect</string>
     <string name="usb_paranoia_connect_summary">Only enable charging and disable ADB when USB plugged on secure lock screens</string>
 
+    <string name="lockscreen_tuner_title">Lockscreen Shortcuts</string>
+    <string name="lockscreen_tuner_summary">Customize bottom lock screen shortcuts</string>
+    <string name="other_category_title">Other</string>
+    <string name="blocking_category_title">Blocking</string>
 </resources>
